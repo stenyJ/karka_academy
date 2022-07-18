@@ -1,0 +1,7 @@
+.container_1000{
+    width:1000px;
+    margin:0 auto;
+}
+.container_1000 .background{
+    background-color: #000000 !important;
+}

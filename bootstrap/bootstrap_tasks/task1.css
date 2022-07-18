@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.header{
+    background-color:  rgb(212, 41, 41);
+    color:#fff;
+}
+.nav{
+    background-color:rgb(173, 3, 3);
+}
+.background{
+    background-color:rgb(173, 3, 3) !important;
+}
+.color{
+    color:#fff;
+}
+.bg_white{
+    background-color: #fff;
+}
+.square{
+    width:25%;
+    background-color: red;
+    padding:100px;
+    color:#fff;
+}
+.color_h2{
+    color:red;
+}
+.bgcolor h5{
+    color:#fff;
+}
+@media screen and (min-width:576px){
+    .square{
+        margin-bottom:20px;
+    }
+}
+@media screen and (min-width:768px){
+    .square{
+        margin-bottom:0;
+    }
+}
