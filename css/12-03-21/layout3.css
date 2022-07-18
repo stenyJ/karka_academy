@@ -1,0 +1,40 @@
+.overflow{
+    overflow:hidden;
+}
+.header{
+    width:100%;
+    height:100px;
+    background-color:rgb(238, 206, 146);
+}
+.side_bar{
+    width:20%;
+    height:400px;
+    background-color:aqua;
+    float:left;
+}
+.mid{
+    width:80%;
+    float:left;
+}
+.mid .mid1{
+    width:100%;
+    height:100px;
+    background-color:pink;
+}
+.mid .mid2{
+    width:70%;
+    height:300px;
+    background-color:yellow;
+    float:left;
+}
+.mid .mid3{
+    width:30%;
+    height:300px;
+    background-color:rgb(173, 170, 170);
+    float:left;
+}
+.footer{
+    width:100%;
+    height:100px;
+    background-color:tomato;
+}

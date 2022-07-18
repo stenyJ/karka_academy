@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:whitesmoke;
+}
+.parent {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
+.header{
+    background-color:rgb(226, 59, 87);
+    padding:40px;
+}
+.header h1{
+    color:white;
+}
+.common {
+    width:100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.common button {
+    border: none;
+    color: rgb(226, 59, 87);
+    background: none;
+    padding:0 0 10 20;
+}
+.common label {
+    padding:0 50px 0 20;
+}
+@media screen and (min-width:768px){
+    .common{
+        width:48%;
+        float:left;
+    }
+    .left, .triangle {
+        margin-left: 20px;
+    }
+    .common span {
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width:992px){
+    .common{
+        width:100%;
+        margin-left:0;
+    }
+}
+
+

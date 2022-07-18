@@ -1,0 +1,12 @@
+.div_one{
+    width:300px;
+    height:200px;
+    border:2px solid green;
+}
+.div_two{
+    width:300px;
+    height:200px;
+    border:2px solid red;
+    padding:50px;
+    box-sizing:border-box;
+}

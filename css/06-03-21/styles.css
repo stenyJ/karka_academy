@@ -1,0 +1,97 @@
+.background{
+    height:700px; 
+    background:tomato url("../images/scenery.jpg") no-repeat right top fixed;
+    background-size:300px;
+    
+}
+div.background p.text{
+    color:rgb(90, 38, 38);
+    text-indent:100px;
+}
+h1.title{
+    text-decoration:underline;
+    text-align:center;
+    text-transform:capitalize;
+    color:rgb(83, 31, 31);
+}
+.border{
+    font-size:30px;
+}
+.border .border1{
+    border:2px dashed blue;
+    color:red;
+    background-color:chartreuse
+}
+.border .border2{
+    border-width:4px;
+    border-style:solid dotted double ridge;
+    border-color:red green blue yellow;
+}
+.border .border3{
+    border:3px solid blueviolet;
+    border-radius:8px;
+
+}
+.table,tr,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:15px;
+    text-align:center;
+}
+.pseudo p:nth-child(2){
+    color:red;
+}
+.pseudo p:nth-last-child(1){
+    color:blue;
+}
+.pseudo p:nth-child(1){
+    text-align:center;
+    text-indent:50px;
+    text-transform:lowercase;
+    text-shadow:2px 2px 5px tomato
+}
+.pseudo p:nth-child(3){
+    word-spacing:4px;
+    letter-spacing:2px;
+    line-height:20pxs;
+    text-decoration:underline wavy rgb(224, 63, 144);
+}
+img{
+    float:right;
+    width:200px;
+}
+.para .para1{
+    word-spacing:10px;
+    letter-spacing:3px;
+    line-height:20px;
+}
+.para .para2{
+    text-align:center;
+    text-align-last:center;
+    text-decoration:none;
+    text-transform:capitalize;
+    text-indent:100px;
+    text-shadow:1px 1px 2px rgb(129, 122, 122);
+}
+.para .para3{
+    font:italic small-caps 12px sans-serif;
+}
+.para .para4{
+    font-size:25px;
+    color:red;
+    background-color:gray
+}
+.unorder li{
+    display:inline;
+    float:right;
+}
+.unorder li:nth-child(odd){
+    color:crimson;
+}
+.order li:nth-child(even){
+    color:yellowgreen;
+}
+.home a:hover{
+    color:red;
+    font-size:20px;
+}

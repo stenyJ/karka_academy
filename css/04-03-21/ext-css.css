@@ -1,0 +1,19 @@
+.header{
+    background-color:black;
+    height:100px;
+}
+body{
+    background-color:rgb(233, 233, 84);
+}
+img{
+    float:left;
+}
+.ul{
+    list-style:none;
+    color:yellow;
+    font-size:20px;
+    float:right;
+}
+li{
+    display:inline-block;
+}

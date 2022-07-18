@@ -1,0 +1,10 @@
+.pseudo a:hover{
+    color:red;
+    text-transform: uppercase;
+}
+.pseudo_p p:first-child{
+    color:red;
+}
+.pseudo_p p:last-child{
+    color:blue;
+}

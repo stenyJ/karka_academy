@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container,.about{
+    width:960px;
+    margin:0 auto;
+}
+.title h1 {
+    padding-top: 99px;
+}
+.header img{
+    padding:49px 0;
+}
+.list li:hover {
+    color: #999999;
+}
+.list{
+    float:right;
+    padding:53px 0;
+}
+.header .list li{
+    list-style-type: none;
+    font-size:18px;
+    display: inline-block;
+    padding-right:37px;
+}
+.list li:last-child {
+    padding-right: 0;
+}
+.title {
+    text-align: center;
+}
+.title p {
+    padding: 47px 0;
+}
+.title button {
+    width: 140px;
+    height: 43px;
+    border-radius: 8px;
+    background-color: black;
+    color: ffffff;
+    font-size: 18px;
+}
+.pro_3,.pro_2 {
+    float: left;
+    margin-left: 30px;
+}
+.project .pro_1 {
+    float: left;
+}
+.project {
+    overflow: hidden;
+}
+.project h2 {
+    margin: 153px 0 50 0;
+    font-size:30px;
+}
+.about {
+    width: 100%;
+    background-color:#e5e5e5;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.about_me,.what_new {
+    float: left;
+    width: 50%;
+}
+.about_me h2 {
+    margin: 47 0 18;
+}
+.what_new h2 {
+    padding: 47 0 47;
+}
+.top {
+    overflow: auto;
+}
+.top .image1,.top .text_1{
+    float: left;
+}
+.bottom {
+    overflow: hidden;
+    padding: 60px 0 100;
+}
+.bottom .image2,.bottom .text_2 {
+    float: left;
+}
+
+.about_me p {
+    padding:0 62px 35px 0;
+}
+.text_1,.text_2 {
+    padding-left: 10px;
+}
+.text_1 .links_1, .text_2 .links_2 {
+    padding-top: 16px;
+}
+.about_me img {
+    padding: 55 0 66;
+}
+.footer label {
+    color: #ca1f1f;
+    font-size: 15px;
+}
+.foo_list li {
+    display: inline;
+    padding-right: 30px;
+}
+ul.foo_list {
+    float: right;
+    list-style-type: none;
+}
+.footer {
+    padding-top: 30px;
+    padding-bottom: 232px;
+    font-size:15px;
+}
+.foo_list li:hover {
+    color: #099999;
+}
+.links_1 a, .links_2 a {
+    color: #ca1f1f;
+}
+.text_1 p, .text_2 p {
+    font-size: 18px;
+}
+.section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+    

@@ -1,0 +1,40 @@
+.headings{
+    color:orangered;
+}
+a:hover{
+    color:red;
+    font-size:20px;
+}
+button:hover{
+    background-color:blue;
+}
+.marquee{
+    border:1px solid aqua;
+    background-color:aqua;
+    font-size:25px;
+}
+.para{
+    border:1px solid grey;
+    background-color:gray;
+    font-family:'Times New Roman';
+    letter-spacing:2px;
+    word-spacing:30px;
+    line-height:15px;
+    text-indent:40px;
+}
+.unorder li{
+    display:inline
+}
+.unorder li:nth-child(odd){
+    color:crimson;
+}
+.order li:nth-child(even){
+    color:yellowgreen;
+}
+.text{
+    color:red;
+}
+img{
+    float:right;
+    width:200px;
+}

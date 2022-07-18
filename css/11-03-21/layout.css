@@ -1,0 +1,27 @@
+.header{
+    background-color:red;
+    padding:20px;
+}
+.header h1{
+    text-align:center;
+    color:white;
+}
+.left_div{
+    width:50%;
+    float:left;
+}
+.right_div{
+    width:50%;
+    float:left;
+}
+.footer{
+    background-color:black;
+    padding:20px;
+}
+.footer h1{
+    text-align:center;
+    color:white;
+}
+.clear_fix{
+    clear:both;
+}

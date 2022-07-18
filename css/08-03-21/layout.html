@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+        .child_one{
+            float:left;
+            height:300;
+            width:50%;
+            background-color: red;
+        }
+        .child_two{
+            height:300;
+            width:50%;
+            background-color: yellow;
+            float:left;
+        }
+        .child_two .child{
+            width:50%;
+            height:300;
+            background-color:green;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child_one">
+                <img width=100% height="300" src="../images/girl.jpg"/>
+            </div>
+        </div>
+        <div class="child_two">
+            <div class="child"></div>
+        </div>
+       
+    </body>
+</html>

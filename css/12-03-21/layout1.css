@@ -1,0 +1,24 @@
+.header{
+    text-align:center;
+    color:blue
+}
+.div_one{
+    width:24.5%;
+    height:500px;
+    background-color:blue;
+    float:left;
+}
+.div_two{
+    width:49.5%;
+    height:500px;
+    background-color:red;
+    float:left;
+    margin-left:3px;
+}
+.div_three{
+    width:24.5%;
+    height:500px;
+    background-color:green;
+    float:left;
+    margin-left:3px;
+}

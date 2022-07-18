@@ -1,0 +1,33 @@
+.property .site_title{
+    color:blue;
+    text-align:center;
+    font-size:30px;
+    text-transform:uppercase;
+    
+}
+.property .para{
+    text-decoration:line-through;
+}
+.no_dec{
+    text-decoration:none;
+}
+.indent{
+    text-indent:30px;
+}
+.space_letter{
+    letter-spacing:2px;
+}
+.lheight{
+    line-height:30px;
+}
+.wspace{
+    word-spacing:25px;
+}
+.bg{
+    height: 700px;
+    background-color: yellow;
+    background-image:url("../images/tree.jpeg");
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-attachment:fixed;
+}

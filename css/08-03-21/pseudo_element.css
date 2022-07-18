@@ -1,0 +1,3 @@
+.parent h1::before{
+    content:url("../images/smile.jpeg");
+}
